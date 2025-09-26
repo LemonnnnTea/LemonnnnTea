@@ -6,7 +6,7 @@
   - Ranked Top 15% in major   
   - Actively involved in student organizations, cultural exchange, and academic activities  
 
-- **Massey University, New Zealand** — B.IS. Computer Science
+- **Massey University, New Zealand** — BInfSc Computer Science
   *Exchange / Dual-degree Program*  
   - Focused on IoT system design, cloud deployment, and embedded systems  
   - Coursework includes OOP, Data Structures, Cloud Computing, and AI deployment  
