@@ -3,8 +3,7 @@
 ## 🎓 Education
 - **Hebei University of Technology (HEBUT)** — B.Eng. in Internet of Things Engineering 
   *2023 – Present  
-  - Ranked Top 15% in major  
-  - Awarded Third-Class Scholarship (2023–2024)  
+  - Ranked Top 15% in major   
   - Actively involved in student organizations, cultural exchange, and academic activities  
 
 - **Massey University, New Zealand** — B.IS. Computer Science
