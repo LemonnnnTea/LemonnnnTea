@@ -1,4 +1,4 @@
-# 👋 Hi, I'm LemonnnnTea
+# 👋 Hi, I'm LemonTea
 
 ## 🎓 Education
 - **Hebei University of Technology (HEBUT)** — B.Eng. in Internet of Things Engineering 
@@ -107,7 +107,7 @@
 
 ## 📊 GitHub Stats
 
-![LemonnnnTea's GitHub stats](https://github-readme-stats.vercel.app/api?username=LemonnnnTea&show_icons=true&theme=tokyonight)  
+![LemonTea's GitHub stats](https://github-readme-stats.vercel.app/api?username=LemonnnnTea&show_icons=true&theme=tokyonight)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LemonnnnTea&layout=compact&theme=tokyonight)  
 
 ---
