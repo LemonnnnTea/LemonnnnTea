@@ -28,8 +28,8 @@
 ---
 
 ## 🏆 Competitions
-- Finalist Award — The 7th China University Student Power Battery Innovation Competition
-- First Award — The AI Game Development Competition, Hebei University of Technology, 2025
+- **Finalist Award** — The 7th China University Student Power Battery Innovation Competition
+- **First Award** — The AI Game Development Competition, Hebei University of Technology, 2025
 
 
 ---
