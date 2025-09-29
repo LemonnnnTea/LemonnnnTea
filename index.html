@@ -1,32 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LemonTea | Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; color: #333; }
-        header { background: linear-gradient(135deg,#667eea,#764ba2); color: white; text-align: center; padding: 60px 20px; }
-        header h1 { font-size: 3rem; margin-bottom: 10px; }
-        header p { font-size: 1.2rem; margin: 5px 0; }
-        section { padding: 60px 15px; }
-        h2 { font-weight: 700; margin-bottom: 30px; color: #764ba2; position: relative; }
-        h2::after { content: ''; display: block; width: 60px; height: 4px; background: #764ba2; border-radius: 2px; margin-top: 5px; }
-        .card { border-radius: 15px; box-shadow: 0 6px 18px rgba(0,0,0,0.1); margin-bottom: 30px; transition: transform 0.3s; background: white; padding: 25px; }
-        .card:hover { transform: translateY(-8px); }
-        .tech-icons img { height: 50px; margin: 8px; transition: transform 0.3s; }
-        .tech-icons img:hover { transform: scale(1.2); }
-        .badge img { max-height: 120px; margin: 10px; transition: transform 0.3s; }
-        .badge img:hover { transform: scale(1.1); }
-        footer { text-align: center; padding: 20px 0; font-size: 0.9rem; color: #555; background: #f0f2f5; }
-        a { color: inherit; text-decoration: none; }
-        @media (min-width: 768px) {
-            .row-cols-md-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; }
-            .row-cols-md-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -80,7 +60,7 @@
     </section>
 
     <section>
-        <h2>💼 Experience & Projects</h2>
+        <h2>💼 Activities & Experience</h2>
         <div class="experience-card d-flex flex-column gap-4">
 
             <div class="card p-4 d-flex align-items-center">
@@ -89,45 +69,100 @@
                 </div>
                 <div>
                     <h5>Teaching Assistant / Student Leader</h5>
-                    <p>Organized cultural events like International Chinese Language Day, May’s Blossoms, Mid-Autumn Lecture;<br>
-                        Coordinated international/domestic students;<br>
-                        Supported teaching staff and peer tutoring.</p>
+                    <p>
+                        Participated cultural events such as <em>International Chinese Language Day</em>,
+                        <em>May’s Blossoms</em>, and <em>Mid-Autumn Lecture</em>;<br>
+                        Coordinated between international and domestic students;<br>
+                        Supported teaching staff in course logistics and peer tutoring.
+                    </p>
                 </div>
             </div>
 
             <div class="card p-4 d-flex align-items-center">
-                <div class="me-3">
-                    <i class="fas fa-flask fa-3x text-info"></i>
+                <!-- Internships Timeline -->
+                <div class="card p-4 mt-3">
+                    <h5><i class="fas fa-briefcase text-success me-2"></i> Internships</h5>
+                    <div class="timeline">
+
+                        <!-- Bohai Drilling Internship -->
+                        <div class="timeline-item left">
+                            <div class="content">
+                                <h6>Bohai Drilling Engineering Co., Ltd.</h6>
+                                <p><em>July 2024 – August 2024</em></p>
+                                <ul>
+                                    <li>Role: Operations & Maintenance</li>
+                                    <li>Assisted in daily system operation and troubleshooting</li>
+                                    <li>Gained practical experience with industrial data monitoring and fault handling</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- CNPC Dagang Internship -->
+                        <div class="timeline-item right">
+                            <div class="content">
+                                <h6>CNPC Dagang Oilfield Digital Technology Co.</h6>
+                                <p><em>July 2025 – August 2025</em></p>
+                                <ul>
+                                    <li>Role: Operations & Maintenance</li>
+                                    <li>Participated in maintaining oilfield digital systems and platforms</li>
+                                    <li>Learned skills in large-scale system monitoring and IT support</li>
+                                    <li>Collaborated with senior engineers on system optimization tasks</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-                <div>
-                    <h5>Research & Projects</h5>
-                    <p>National Undergraduate Innovation Project member;<br>
-                        Challenge Cup Special Competition;<br>
-                        AI model cloud deployment;<br>
-                        ESP32+4G IoT heart-rate monitoring system.</p>
-                </div>
+
+
+
             </div>
 
         </div>
     </section>
 
     <section>
-        <h2>🏆 Competitions</h2>
+        <h2>🏆 Competitions & Activities</h2>
         <div class="competition-card d-flex flex-column gap-4">
 
+            <!-- Activities Card -->
+            <div class="card p-4 d-flex align-items-center">
+                <div class="me-3">
+                    <i class="fas fa-running fa-3x text-primary"></i>
+                </div>
+                <div>
+                    <h5>Activities</h5>
+                    <ul>
+                        <li><strong>Intermediate Localization Engineer</strong> — Hearts of Iron Mod Translation Team</li>
+                        Contributed to the localization of game content; ensured translation accuracy and cultural relevance. <br>
+                        Collaborated with team members to deliver high-quality Chinese versions of mod content.
+                        <li><strong>President</strong> — High School Computer Science Club</li>
+                        Led the club and organized workshops; taught classmates fundamentals of computer hardware, programming, and video editing.<br>
+                        Enhanced peers’ technical literacy and fostered interest in computer science.
+                        <li><strong>Computer Technician Assistant</strong>— Local Computer Repair Shop</li>
+                        Assisted in repairing and assembling desktop computers under the supervision of the shop owner.<br>
+                        Gained hands-on experience with hardware troubleshooting, system installation, and component replacement.<br>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Awards Card -->
             <div class="card p-4 d-flex align-items-center">
                 <div class="me-3">
                     <i class="fas fa-trophy fa-3x text-danger"></i>
                 </div>
                 <div>
-                    <h5>Awards & Activities</h5>
-                    <p>Finalist Award of the 7th China University Student Power Battery Innovation Competition<br>
-                    </p>
+                    <h5>Awards</h5>
+                    <ul>
+                        <li><strong>Finalist Award </strong>— The 7th China University Student Power Battery Innovation Competition</li>
+                        <li><strong>First Award</strong>— The AI Game Development Competition, Hebei University of Technology, 2025</li>
+                    </ul>
                 </div>
             </div>
 
         </div>
     </section>
+
 
     <!-- Tech Stack -->
     <section>
@@ -242,17 +277,6 @@
         </div>
     </section>
 
-    <style>
-        .project-card .card {
-            border-radius: 15px;
-            box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
-            background: white;
-        }
-        .project-card .card:hover { transform: translateY(-8px); }
-    </style>
-
-
     <!-- Achievements -->
     <!-- Achievements Section -->
     <section>
@@ -344,45 +368,6 @@
             <!-- ... 共24个徽章 ... -->
         </div>
     </section>
-
-    <style>
-        section h2 {
-            border-left: 6px solid #4285F4;
-            padding-left: 10px;
-            margin-bottom: 1.5rem;
-            font-size: 1.5rem;
-        }
-        .certificate {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .certificate img {
-            max-width: 80%;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            transition: transform 0.2s;
-        }
-        .certificate img:hover {
-            transform: scale(1.02);
-        }
-        .badges {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-            gap: 20px;
-            justify-items: center;
-        }
-        .badges a img {
-            width: 100px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .badges a img:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-        }
-    </style>
-
 
     <!-- Contact -->
     <section>
