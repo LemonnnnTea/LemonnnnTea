@@ -25,13 +25,7 @@
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-.timeline-item.left {
-    left: 0;
-    text-align: right;
-}
-.timeline-item.right {
-    left: 50%;
-}
+
 .timeline-item::after {
     content: '';
     position: absolute;
@@ -145,3 +139,73 @@ section h2 {
     transform: scale(1.1);
     box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
+
+.education-item {
+    margin-bottom: 1.2rem;
+}
+
+.edu-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.edu-degree {
+    margin: 0.2rem 0;
+    color: #555;
+}
+
+.edu-year {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.edu-highlight {
+    margin: 0.3rem 0 0;
+    color: #333;
+    line-height: 1.5;
+}
+
+.edu-link {
+    margin-left: 6px;
+    text-decoration: underline;
+}
+
+/* 默认桌面端左右布局 */
+.timeline-item {
+    width: 50%;
+    position: relative;
+    padding: 15px;
+}
+
+.timeline-item.left {
+    float: left;
+    text-align: left;
+}
+
+.timeline-item.right {
+    float: right;
+    text-align: left;
+}
+
+/* 美化内容，可选 */
+.timeline-item .content {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ========= 手机版修正重点 ========= */
+@media (max-width: 768px) {
+    .timeline-item,
+    .timeline-item.left,
+    .timeline-item.right {
+        width: 100% !important;
+        float: none !important;
+        clear: both !important;   /* ✅ 防止第二条粘在右边 */
+        text-align: left !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
