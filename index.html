@@ -6,22 +6,36 @@
     <title>LemonTea | Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href = "style.css" rel = "stylesheet">
 </head>
 <body>
 
+<!-- Language Switcher -->
+<div class="language-switcher">
+    <button id="language-toggle">中文</button>
+</div>
+
 <!-- Header -->
 <header>
-    <h1>LemonTea</h1>
-    <p>Undergraduate Student | Internet of Things Engineering(HEBUT) & Computer Science(Massey Uni)</p>
-    <p>📍 Hebei University of Technology & Massey University | 🌱 IoT, Cloud, Embedded Systems, AI Deployment</p>
+    <h1 data-en="Xinru Xue" data-zh="薛新儒">Xinru Xue</h1>
+    <p data-en="Undergraduate Student | Internet of Things Engineering(HEBUT) & Computer Science(Massey Uni)"
+       data-zh="本科生 | 物联网工程(河北工业大学) & 计算机科学(梅西大学)">Undergraduate Student | Internet of Things Engineering(HEBUT) & Computer Science(Massey Uni)</p>
+    <p data-en="📍 Hebei University of Technology & Massey University | 🌱 IoT, Cloud, Embedded Systems, AI Deployment"
+       data-zh="📍 河北工业大学 & 梅西大学 | 🌱 物联网、云计算、嵌入式系统、AI部署">📍 Hebei University of Technology & Massey University | 🌱 IoT, Cloud, Embedded Systems, AI Deployment</p>
+    <p>
+        <span data-en="See my updated " data-zh="查看我的最新">See my updated </span>
+        <a href="#" id="cv-link" style="color: #3498db; text-decoration: none; font-weight: 600;">
+            <span data-en="CV" data-zh="简历">CV</span>
+        </a>
+        <span data-en=" here." data-zh="这里。"> here.</span>
+    </p>
 </header>
 
 <div class="container">
 
     <!-- Education -->
     <section>
-        <h2>🎓 Education</h2>
+        <h2 data-en="🎓 Education" data-zh="🎓 教育背景">🎓 Education</h2>
         <div class="education-card d-flex flex-column gap-4">
 
             <div class="card p-4 d-flex align-items-center">
@@ -30,21 +44,22 @@
                 </div>
                 <div>
                     <div class="education-item">
-                        <h5 class="edu-title">Hebei University of Technology (HEBUT)</h5>
-                        <p class="edu-degree">B.Eng. in Internet of Things Engineering <span class="edu-year">(2023–Present)</span></p>
-                        <p class="edu-highlight">
+                        <h5 class="edu-title" data-en="Hebei University of Technology (HEBUT)" data-zh="河北工业大学 (HEBUT)">Hebei University of Technology (HEBUT)</h5>
+                        <p class="edu-degree" data-en="B.Eng. in Internet of Things Engineering" data-zh="物联网工程学士">B.Eng. in Internet of Things Engineering <span class="edu-year">(2023–Present)</span></p>
+                        <p class="edu-highlight" data-en="Ranked <strong>A++ (1st in China)</strong> in the 2025 China University Rankings for Internet of Things Engineering (Research-oriented) by the Alumni Association."
+                           data-zh="在2025年中国大学校友会排名中，物联网工程（研究型）专业被评为<strong>A++（中国第一）</strong>。">
                             Ranked <strong>A++ (1st in China)</strong> in the 2025 China University Rankings for
                             Internet of Things Engineering (Research-oriented) by the Alumni Association.
-                            <a href="https://mp.weixin.qq.com/s/RLS0oxcilWGFw9s0cD6RoA" class="edu-link" target="_blank">View Source</a>
+                            <a href="https://mp.weixin.qq.com/s/RLS0oxcilWGFw9s0cD6RoA" class="edu-link" target="_blank" data-en="View Source" data-zh="查看来源">View Source</a>
                         </p>
                     </div>
 
                     <ul>
-                        <li>Top 15% in major</li>
-                        <li>Active in student organizations, cultural exchange, academic activities</li>
-                        <li>Key Courses: Computer Networks, Operating Systems</li>
-                        <li>Embedded Systems: 8051 Microcontroller, STM32 Microcontroller & Sensor Integration</li>
-                        <li>IoT System Design: Sensors, Edge Computing, Cloud Deployment Models</li>
+                        <li data-en="Top 15% in major" data-zh="专业排名前15%">Top 15% in major</li>
+                        <li data-en="Active in student organizations, cultural exchange, academic activities" data-zh="积极参与学生组织、文化交流和学术活动">Active in student organizations, cultural exchange, academic activities</li>
+                        <li data-en="Key Courses: Computer Networks, Operating Systems" data-zh="核心课程：计算机网络、操作系统">Key Courses: Computer Networks, Operating Systems</li>
+                        <li data-en="Embedded Systems: 8051 Microcontroller, STM32 Microcontroller & Sensor Integration" data-zh="嵌入式系统：8051单片机、STM32单片机与传感器集成">Embedded Systems: 8051 Microcontroller, STM32 Microcontroller & Sensor Integration</li>
+                        <li data-en="IoT System Design: Sensors, Edge Computing, Cloud Deployment Models" data-zh="物联网系统设计：传感器、边缘计算、云部署模型">IoT System Design: Sensors, Edge Computing, Cloud Deployment Models</li>
                     </ul>
                 </div>
             </div>
@@ -55,17 +70,18 @@
                 </div>
                 <div>
                     <div class="education-item">
-                        <h5 class="edu-title">Massey University, New Zealand</h5>
-                        <p class="edu-degree">BInfSc Computer Science <span class="edu-year">(Exchange / Dual-degree)</span></p>
-                        <p class="edu-highlight">
+                        <h5 class="edu-title" data-en="Massey University, New Zealand" data-zh="梅西大学，新西兰">Massey University, New Zealand</h5>
+                        <p class="edu-degree" data-en="BInfSc Computer Science" data-zh="计算机科学学士">BInfSc Computer Science <span class="edu-year" data-en="(Exchange / Dual-degree)" data-zh="(交换/双学位)">(Exchange / Dual-degree)</span></p>
+                        <p class="edu-highlight" data-en="Ranked <strong>#230 in the world (QS 2026)</strong>, and <strong>3rd in New Zealand</strong>."
+                           data-zh="在2026年QS世界大学排名中位列<strong>全球第230位</strong>，<strong>新西兰第3位</strong>。">
                             Ranked <strong>#230 in the world (QS 2026)</strong>, and <strong>3rd in New Zealand</strong>.
-                            <a href="https://www.topuniversities.com/universities/massey-university" class="edu-link" target="_blank">View Source</a>
+                            <a href="https://www.topuniversities.com/universities/massey-university" class="edu-link" target="_blank" data-en="View Source" data-zh="查看来源">View Source</a>
                         </p>
                     </div>
                     <ul>
-                        <li>Software Engineering Design and Construction, Web Deployment, Java Programming</li>
-                        <li>Coursework: OOP, Data Structures, Cloud Computing, AI Deployment</li>
-                        <li>GPA: 8.75 and All Years Excelling</li>
+                        <li data-en="Software Engineering Design and Construction, Web Deployment, Java Programming" data-zh="软件工程设计构建、Web部署、Java编程">Software Engineering Design and Construction, Web Deployment, Java Programming</li>
+                        <li data-en="Coursework: OOP, Data Structures, Cloud Computing, AI Deployment" data-zh="课程：面向对象编程、数据结构、云计算、AI部署">Coursework: OOP, Data Structures, Cloud Computing, AI Deployment</li>
+                        <li data-en="GPA: 8.75 and All Years Excelling" data-zh="GPA: 8.75，所有学年表现优异">GPA: 8.75 and All Years Excelling</li>
                     </ul>
                 </div>
             </div>
@@ -73,8 +89,9 @@
         </div>
     </section>
 
+    <!-- Experience -->
     <section>
-        <h2>💼 Experience</h2>
+        <h2 data-en="💼 Experience" data-zh="💼 经历">💼 Experience</h2>
         <div class="experience-card d-flex flex-column gap-4">
 
             <div class="card p-4 d-flex align-items-center">
@@ -82,10 +99,11 @@
                     <i class="fas fa-user-tie fa-3x text-warning"></i>
                 </div>
                 <div>
-                    <h5>Teaching Assistant / Student Leader</h5>
-                    <p>
+                    <h5 data-en="Teaching Assistant / Student Leader" data-zh="助教 / 学生干部">Teaching Assistant / Student Leader</h5>
+                    <p data-en="Participated cultural events such as <em>International Chinese Language Day</em>, <em>May's Blossoms</em>, and <em>Mid-Autumn Lecture</em>;<br>Coordinated between international and domestic students;<br>Supported teaching staff in course logistics and peer tutoring."
+                       data-zh="参与文化活动，如<em>国际中文日</em>、<em>五月花</em>和<em>中秋讲座</em>；<br>协调国际学生与国内学生之间的交流；<br>协助教师处理课程事务和同伴辅导。">
                         Participated cultural events such as <em>International Chinese Language Day</em>,
-                        <em>May’s Blossoms</em>, and <em>Mid-Autumn Lecture</em>;<br>
+                        <em>May's Blossoms</em>, and <em>Mid-Autumn Lecture</em>;<br>
                         Coordinated between international and domestic students;<br>
                         Supported teaching staff in course logistics and peer tutoring.
                     </p>
@@ -95,18 +113,18 @@
             <div class="card p-4 d-flex align-items-center">
                 <!-- Internships Timeline -->
                 <div class="card p-4 mt-3">
-                    <h5><i class="fas fa-briefcase text-success me-2"></i> Internships</h5>
+                    <h5><i class="fas fa-briefcase text-success me-2"></i> <span data-en="Internships" data-zh="实习经历">Internships</span></h5>
                     <div class="timeline">
 
                         <!-- Bohai Drilling Internship -->
                         <div class="timeline-item left">
                             <div class="content">
-                                <h6>Bohai Drilling Engineering Co., Ltd.</h6>
+                                <h6 data-en="Bohai Drilling Engineering Co., Ltd." data-zh="渤海钻探工程有限公司">Bohai Drilling Engineering Co., Ltd.</h6>
                                 <p><em>July 2024 – August 2024</em></p>
                                 <ul>
-                                    <li>Role: Operations & Maintenance</li>
-                                    <li>Assisted in daily system operation and troubleshooting</li>
-                                    <li>Gained practical experience with industrial data monitoring and fault handling</li>
+                                    <li data-en="Role: Operations & Maintenance" data-zh="职位：运维工程师">Role: Operations & Maintenance</li>
+                                    <li data-en="Assisted in daily system operation and troubleshooting" data-zh="协助日常系统运行和故障排除">Assisted in daily system operation and troubleshooting</li>
+                                    <li data-en="Gained practical experience with industrial data monitoring and fault handling" data-zh="获得工业数据监控和故障处理的实际经验">Gained practical experience with industrial data monitoring and fault handling</li>
                                 </ul>
                             </div>
                         </div>
@@ -114,13 +132,13 @@
                         <!-- CNPC Dagang Internship -->
                         <div class="timeline-item right">
                             <div class="content">
-                                <h6>CNPC Dagang Oilfield Digital Technology Co.</h6>
+                                <h6 data-en="CNPC Dagang Oilfield Digital Technology Co." data-zh="中国石油大港油田数字技术公司">CNPC Dagang Oilfield Digital Technology Co.</h6>
                                 <p><em>July 2025 – August 2025</em></p>
                                 <ul>
-                                    <li>Role: Operations & Maintenance</li>
-                                    <li>Participated in maintaining oilfield digital systems and platforms</li>
-                                    <li>Learned skills in large-scale system monitoring and IT support</li>
-                                    <li>Collaborated with senior engineers on system optimization tasks</li>
+                                    <li data-en="Role: Operations & Maintenance" data-zh="职位：运维工程师">Role: Operations & Maintenance</li>
+                                    <li data-en="Participated in maintaining oilfield digital systems and platforms" data-zh="参与维护油田数字系统和平台">Participated in maintaining oilfield digital systems and platforms</li>
+                                    <li data-en="Learned skills in large-scale system monitoring and IT support" data-zh="学习大规模系统监控和IT支持技能">Learned skills in large-scale system monitoring and IT support</li>
+                                    <li data-en="Collaborated with senior engineers on system optimization tasks" data-zh="与高级工程师合作完成系统优化任务">Collaborated with senior engineers on system optimization tasks</li>
                                 </ul>
                             </div>
                         </div>
@@ -131,8 +149,9 @@
         </div>
     </section>
 
+    <!-- Competitions & Activities -->
     <section>
-        <h2>🏆 Competitions & Activities</h2>
+        <h2 data-en="🏆 Competitions & Activities" data-zh="🏆 竞赛与活动">🏆 Competitions & Activities</h2>
         <div class="competition-card d-flex flex-column gap-4">
 
             <!-- Activities Card -->
@@ -141,17 +160,35 @@
                     <i class="fas fa-running fa-3x text-primary"></i>
                 </div>
                 <div>
-                    <h5>Activities</h5>
+                    <h5 data-en="Activities" data-zh="活动">Activities</h5>
                     <ul>
-                        <li><strong>Intermediate Localization Engineer</strong> — Hearts of Iron Mod Translation Team</li>
-                        Contributed to the localization of game content; ensured translation accuracy and cultural relevance. <br>
-                        Collaborated with team members to deliver high-quality Chinese versions of mod content.
-                        <li><strong>President</strong> — High School Computer Science Club</li>
-                        Led the club and organized workshops; taught classmates fundamentals of computer hardware, programming, and video editing.<br>
-                        Enhanced peers’ technical literacy and fostered interest in computer science.
-                        <li><strong>Computer Technician Assistant</strong>— Local Computer Repair Shop</li>
-                        Assisted in repairing and assembling desktop computers under the supervision of the shop owner.<br>
-                        Gained hands-on experience with hardware troubleshooting, system installation, and component replacement.<br>
+                        <li data-en="<strong>Intermediate Localization Engineer</strong> — Hearts of Iron Mod Translation Team"
+                            data-zh="<strong>中级本地化工程师</strong> — 钢铁雄心模组翻译团队">
+                            <strong>Intermediate Localization Engineer</strong> — Hearts of Iron Mod Translation Team
+                        </li>
+                        <span data-en="Contributed to the localization of game content; ensured translation accuracy and cultural relevance. Collaborated with team members to deliver high-quality Chinese versions of mod content."
+                              data-zh="参与游戏内容的本地化；确保翻译准确性和文化相关性。与团队成员合作，提供高质量的模组中文版本。">
+                            Contributed to the localization of game content; ensured translation accuracy and cultural relevance. <br>
+                            Collaborated with team members to deliver high-quality Chinese versions of mod content.
+                        </span>
+                        <li data-en="<strong>President</strong> — High School Computer Science Club"
+                            data-zh="<strong>主席</strong> — 高中计算机科学社团">
+                            <strong>President</strong> — High School Computer Science Club
+                        </li>
+                        <span data-en="Led the club and organized workshops; taught classmates fundamentals of computer hardware, programming, and video editing. Enhanced peers' technical literacy and fostered interest in computer science."
+                              data-zh="领导社团并组织研讨会；向同学教授计算机硬件、编程和视频编辑基础知识。提高同龄人的技术素养，培养对计算机科学的兴趣。">
+                            Led the club and organized workshops; taught classmates fundamentals of computer hardware, programming, and video editing.<br>
+                            Enhanced peers' technical literacy and fostered interest in computer science.
+                        </span>
+                        <li data-en="<strong>Computer Technician Assistant</strong>— Local Computer Repair Shop"
+                            data-zh="<strong>计算机技术助理</strong>— 本地电脑维修店">
+                            <strong>Computer Technician Assistant</strong>— Local Computer Repair Shop
+                        </li>
+                        <span data-en="Assisted in repairing and assembling desktop computers under the supervision of the shop owner. Gained hands-on experience with hardware troubleshooting, system installation, and component replacement."
+                              data-zh="在店主指导下协助维修和组装台式电脑。获得硬件故障排除、系统安装和组件更换的实践经验。">
+                            Assisted in repairing and assembling desktop computers under the supervision of the shop owner.<br>
+                            Gained hands-on experience with hardware troubleshooting, system installation, and component replacement.<br>
+                        </span>
                     </ul>
                 </div>
             </div>
@@ -162,10 +199,16 @@
                     <i class="fas fa-trophy fa-3x text-danger"></i>
                 </div>
                 <div>
-                    <h5>Awards</h5>
+                    <h5 data-en="Awards" data-zh="奖项">Awards</h5>
                     <ul>
-                        <li><strong>Finalist Award </strong>— The 7th China University Student Power Battery Innovation Competition</li>
-                        <li><strong>First Award</strong>— The AI Game Development Competition, Hebei University of Technology, 2025</li>
+                        <li data-en="<strong>Finalist Award </strong>— The 7th China University Student Power Battery Innovation Competition"
+                            data-zh="<strong>决赛入围奖</strong>— 第七届全国大学生动力电池创新竞赛">
+                            <strong>Finalist Award </strong>— The 7th China University Student Power Battery Innovation Competition
+                        </li>
+                        <li data-en="<strong>First Award</strong>— The AI Game Development Competition, Hebei University of Technology, 2025"
+                            data-zh="<strong>一等奖</strong>— 河北工业大学AI游戏开发竞赛，2025年">
+                            <strong>First Award</strong>— The AI Game Development Competition, Hebei University of Technology, 2025
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -173,8 +216,9 @@
         </div>
     </section>
 
+    <!-- Language Proficiency -->
     <section>
-        <h2>🌐 Language Proficiency</h2>
+        <h2 data-en="🌐 Language Proficiency" data-zh="🌐 语言能力">🌐 Language Proficiency</h2>
         <div class="experience-card d-flex flex-column gap-4">
 
             <div class="card p-4 d-flex align-items-center">
@@ -182,11 +226,11 @@
                     <i class="fas fa-language fa-3x text-primary"></i>
                 </div>
                 <div>
-                    <h5>English Proficiency</h5>
+                    <h5 data-en="English Proficiency" data-zh="英语能力">English Proficiency</h5>
                     <ul>
                         <li><strong>IELTS:</strong> 6.5 / 9.0</li>
                         <li><strong>CET-6 (College English Test Band 6):</strong> 480 / 710</li>
-                        <li><strong>Gaokao English:</strong> 129 / 150</li>
+                        <li><strong data-en="Gaokao English" data-zh="高考英语">Gaokao English</strong>: 129 / 150</li>
                     </ul>
                 </div>
             </div>
@@ -196,17 +240,17 @@
                     <i class="fas fa-comment-dots fa-3x text-success"></i>
                 </div>
                 <div>
-                    <h5>Chinese (Native)</h5>
-                    <p>Fluent in Mandarin (Native speaker)</p>
+                    <h5 data-en="Chinese (Native)" data-zh="中文（母语）">Chinese (Native)</h5>
+                    <p data-en="Fluent in Mandarin (Native speaker)" data-zh="普通话流利（母语）">Fluent in Mandarin (Native speaker)</p>
                 </div>
             </div>
 
         </div>
     </section>
 
-
+    <!-- Certificates & Qualifications -->
     <section>
-        <h2>📜 Certificates & Qualifications</h2>
+        <h2 data-en="📜 Certificates & Qualifications" data-zh="📜 证书与资格">📜 Certificates & Qualifications</h2>
         <div class="experience-card d-flex flex-column gap-4">
 
             <div class="card p-4 d-flex align-items-center">
@@ -214,8 +258,9 @@
                     <img src="imgs/CCF.png" height="50px" alt="Network Icon" class="icon-img">
                 </div>
                 <div>
-                    <h5>CSP Certification</h5>
-                    <p>
+                    <h5 data-en="CSP Certification" data-zh="CSP认证">CSP Certification</h5>
+                    <p data-en="Certified Software Professional / CSP Exam Qualification"
+                       data-zh="认证软件专业人员 / CSP考试资格">
                         Certified Software Professional / CSP Exam Qualification
                     </p>
                 </div>
@@ -226,8 +271,9 @@
                     <img src="imgs/GoogleSkillBoost.png" height="100px" alt="Network Icon" class="icon-img">
                 </div>
                 <div>
-                    <h5> Google Cloud Career Launchpad program</h5>
-                    <p>
+                    <h5 data-en="Google Cloud Career Launchpad program" data-zh="Google Cloud职业启动计划">Google Cloud Career Launchpad program</h5>
+                    <p data-en="Google Cloud Skills Boost in Generate AI"
+                       data-zh="Google Cloud技能提升 - 生成式AI">
                         Google Cloud Skills Boost in Generate AI
                     </p>
                 </div>
@@ -238,8 +284,8 @@
                     <img src="imgs/NEEA.png" height="50px" alt="Network Icon" class="icon-img" >
                 </div>
                 <div>
-                    <h5>National Computer Rank Examination - Level 3</h5>
-                    <p>
+                    <h5 data-en="National Computer Rank Examination - Level 3" data-zh="全国计算机等级考试 - 三级">National Computer Rank Examination - Level 3</h5>
+                    <p data-en="Network Technology" data-zh="网络技术">
                         Network Technology
                     </p>
                 </div>
@@ -252,10 +298,10 @@
                 <div>
                     <h5>IELTS 6.5</h5>
                     <ul>
-                        <li>Listening: 6.5</li>
-                        <li>Reading: 6.5</li>
-                        <li>Writing: 6.5</li>
-                        <li>Speaking: 5.5</li>
+                        <li data-en="Listening: 6.5" data-zh="听力：6.5">Listening: 6.5</li>
+                        <li data-en="Reading: 6.5" data-zh="阅读：6.5">Reading: 6.5</li>
+                        <li data-en="Writing: 6.5" data-zh="写作：6.5">Writing: 6.5</li>
+                        <li data-en="Speaking: 5.5" data-zh="口语：5.5">Speaking: 5.5</li>
                     </ul>
                 </div>
             </div>
@@ -263,8 +309,9 @@
         </div>
     </section>
 
+    <!-- Professional Memberships -->
     <section>
-        <h2>👥 Professional Memberships</h2>
+        <h2 data-en="👥 Professional Memberships" data-zh="👥 专业会员资格">👥 Professional Memberships</h2>
         <div class="experience-card d-flex flex-column gap-4">
 
             <div class="card p-4 d-flex align-items-center">
@@ -272,8 +319,11 @@
                     <i class="fas fa-users fa-3x text-primary"></i>
                 </div>
                 <div>
-                    <h5>IEEE (Institute of Electrical and Electronics Engineers)</h5>
-                    <p>Member of the world’s largest technical professional organization for advancing technology.</p>
+                    <h5 data-en="IEEE (Institute of Electrical and Electronics Engineers)" data-zh="IEEE（电气与电子工程师协会）">IEEE (Institute of Electrical and Electronics Engineers)</h5>
+                    <p data-en="Member of the world's largest technical professional organization for advancing technology."
+                       data-zh="世界最大的技术专业组织成员，致力于推动技术进步。">
+                        Member of the world's largest technical professional organization for advancing technology.
+                    </p>
                 </div>
             </div>
 
@@ -282,8 +332,11 @@
                     <i class="fas fa-code-branch fa-3x text-info"></i>
                 </div>
                 <div>
-                    <h5>ACM (Association for Computing Machinery)</h5>
-                    <p>Member of the leading international association for computer science research and education.</p>
+                    <h5 data-en="ACM (Association for Computing Machinery)" data-zh="ACM（计算机协会）">ACM (Association for Computing Machinery)</h5>
+                    <p data-en="Member of the leading international association for computer science research and education."
+                       data-zh="领先的国际计算机科学研究和教育协会成员。">
+                        Member of the leading international association for computer science research and education.
+                    </p>
                 </div>
             </div>
 
@@ -292,18 +345,19 @@
                     <i class="fas fa-chalkboard-teacher fa-3x text-danger"></i>
                 </div>
                 <div>
-                    <h5>CCF (China Computer Federation)</h5>
-                    <p>Member of China’s top professional organization in computer science and technology.</p>
+                    <h5 data-en="CCF (China Computer Federation)" data-zh="CCF（中国计算机学会）">CCF (China Computer Federation)</h5>
+                    <p data-en="Member of China's top professional organization in computer science and technology."
+                       data-zh="中国顶尖的计算机科学与技术专业组织成员。">
+                        Member of China's top professional organization in computer science and technology.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-
-
     <!-- Tech Stack -->
     <section>
-        <h2>🛠️ Tech Stack</h2>
+        <h2 data-en="🛠️ Tech Stack" data-zh="🛠️ 技术栈">🛠️ Tech Stack</h2>
         <div class="tech-icons d-flex flex-wrap justify-content-start">
             <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
             <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white" alt="Java">
@@ -318,7 +372,7 @@
 
     <!-- Projects -->
     <section>
-        <h2>🚀 Projects & Learning</h2>
+        <h2 data-en="🚀 Projects & Learning" data-zh="🚀 项目与学习">🚀 Projects & Learning</h2>
         <div class="project-card d-flex flex-column gap-4">
 
             <div class="card p-4 d-flex align-items-center">
@@ -326,8 +380,11 @@
                     <i class="fas fa-book fa-3x text-primary"></i>
                 </div>
                 <div>
-                    <h5>Library Management System</h5>
-                    <p>Java OOP: encapsulation, inheritance, polymorphism; collections, exception handling, file I/O; book/journal/movie management, borrowing/returning, search, sorting, rating.</p>
+                    <h5 data-en="Library Management System" data-zh="图书馆管理系统">Library Management System</h5>
+                    <p data-en="Java OOP: encapsulation, inheritance, polymorphism; collections, exception handling, file I/O; book/journal/movie management, borrowing/returning, search, sorting, rating."
+                       data-zh="Java面向对象编程：封装、继承、多态；集合、异常处理、文件I/O；图书/期刊/电影管理、借阅/归还、搜索、排序、评分。">
+                        Java OOP: encapsulation, inheritance, polymorphism; collections, exception handling, file I/O; book/journal/movie management, borrowing/returning, search, sorting, rating.
+                    </p>
                 </div>
             </div>
 
@@ -336,8 +393,11 @@
                     <i class="fas fa-laptop-code fa-3x text-success"></i>
                 </div>
                 <div>
-                    <h5>Personal Portfolio Website</h5>
-                    <p>HTML, CSS, JS, Bootstrap; responsive design, interactive sections, projects showcase.</p>
+                    <h5 data-en="Personal Portfolio Website" data-zh="个人作品集网站">Personal Portfolio Website</h5>
+                    <p data-en="HTML, CSS, JS, Bootstrap; responsive design, interactive sections, projects showcase."
+                       data-zh="HTML、CSS、JS、Bootstrap；响应式设计、交互式部分、项目展示。">
+                        HTML, CSS, JS, Bootstrap; responsive design, interactive sections, projects showcase.
+                    </p>
                 </div>
             </div>
 
@@ -346,8 +406,11 @@
                     <i class="fas fa-cogs fa-3x text-warning"></i>
                 </div>
                 <div>
-                    <h5>Software Engineering & Architecture Study</h5>
-                    <p>Software lifecycle, UML, design patterns, modular design, version control.</p>
+                    <h5 data-en="Software Engineering & Architecture Study" data-zh="软件工程与架构学习">Software Engineering & Architecture Study</h5>
+                    <p data-en="Software lifecycle, UML, design patterns, modular design, version control."
+                       data-zh="软件生命周期、UML、设计模式、模块化设计、版本控制。">
+                        Software lifecycle, UML, design patterns, modular design, version control.
+                    </p>
                 </div>
             </div>
 
@@ -356,8 +419,11 @@
                     <i class="fas fa-code fa-3x text-info"></i>
                 </div>
                 <div>
-                    <h5>Algorithms & Data Structures</h5>
-                    <p>Sorting/searching, stacks, queues, trees, graphs; implemented in C/Java; algorithm optimization.</p>
+                    <h5 data-en="Algorithms & Data Structures" data-zh="算法与数据结构">Algorithms & Data Structures</h5>
+                    <p data-en="Sorting/searching, stacks, queues, trees, graphs; implemented in C/Java; algorithm optimization."
+                       data-zh="排序/搜索、栈、队列、树、图；使用C/Java实现；算法优化。">
+                        Sorting/searching, stacks, queues, trees, graphs; implemented in C/Java; algorithm optimization.
+                    </p>
                 </div>
             </div>
 
@@ -366,8 +432,11 @@
                     <i class="fas fa-sticky-note fa-3x text-danger"></i>
                 </div>
                 <div>
-                    <h5>CS Notes</h5>
-                    <p>OS, Networking, IoT fundamentals; Markdown-based personal knowledge base.</p>
+                    <h5 data-en="CS Notes" data-zh="计算机科学笔记">CS Notes</h5>
+                    <p data-en="OS, Networking, IoT fundamentals; Markdown-based personal knowledge base."
+                       data-zh="操作系统、网络、物联网基础；基于Markdown的个人知识库。">
+                        OS, Networking, IoT fundamentals; Markdown-based personal knowledge base.
+                    </p>
                 </div>
             </div>
 
@@ -376,8 +445,11 @@
                     <i class="fas fa-microchip fa-3x text-secondary"></i>
                 </div>
                 <div>
-                    <h5>Computer Organization & Principles</h5>
-                    <p>CPU architecture, memory hierarchy, instruction sets, assembly programming.</p>
+                    <h5 data-en="Computer Organization & Principles" data-zh="计算机组成与原理">Computer Organization & Principles</h5>
+                    <p data-en="CPU architecture, memory hierarchy, instruction sets, assembly programming."
+                       data-zh="CPU架构、内存层次结构、指令集、汇编编程。">
+                        CPU architecture, memory hierarchy, instruction sets, assembly programming.
+                    </p>
                 </div>
             </div>
 
@@ -386,8 +458,11 @@
                     <i class="fas fa-project-diagram fa-3x text-purple"></i>
                 </div>
                 <div>
-                    <h5>8051 Microcontroller Projects</h5>
-                    <p>C/assembly programming, LEDs, switches, sensors.</p>
+                    <h5 data-en="8051 Microcontroller Projects" data-zh="8051单片机项目">8051 Microcontroller Projects</h5>
+                    <p data-en="C/assembly programming, LEDs, switches, sensors."
+                       data-zh="C/汇编编程、LED、开关、传感器。">
+                        C/assembly programming, LEDs, switches, sensors.
+                    </p>
                 </div>
             </div>
 
@@ -396,8 +471,11 @@
                     <i class="fas fa-network-wired fa-3x text-teal"></i>
                 </div>
                 <div>
-                    <h5>STM32 Microcontroller & Sensor Integration</h5>
-                    <p>IoT prototypes, UART/SPI/I2C communication, cloud monitoring.</p>
+                    <h5 data-en="STM32 Microcontroller & Sensor Integration" data-zh="STM32单片机与传感器集成">STM32 Microcontroller & Sensor Integration</h5>
+                    <p data-en="IoT prototypes, UART/SPI/I2C communication, cloud monitoring."
+                       data-zh="物联网原型、UART/SPI/I2C通信、云监控。">
+                        IoT prototypes, UART/SPI/I2C communication, cloud monitoring.
+                    </p>
                 </div>
             </div>
 
@@ -406,8 +484,11 @@
                     <i class="fas fa-cloud fa-3x text-orange"></i>
                 </div>
                 <div>
-                    <h5>AI Model Cloud Deployment</h5>
-                    <p>Flask + Nginx, Docker, cloud model serving, multi-user access, scalable cloud architecture.</p>
+                    <h5 data-en="AI Model Cloud Deployment" data-zh="AI模型云部署">AI Model Cloud Deployment</h5>
+                    <p data-en="Flask + Nginx, Docker, cloud model serving, multi-user access, scalable cloud architecture."
+                       data-zh="Flask + Nginx、Docker、云模型服务、多用户访问、可扩展云架构。">
+                        Flask + Nginx, Docker, cloud model serving, multi-user access, scalable cloud architecture.
+                    </p>
                 </div>
             </div>
 
@@ -415,9 +496,8 @@
     </section>
 
     <!-- Achievements -->
-    <!-- Achievements Section -->
     <section>
-        <h2>🏅 Achievements</h2>
+        <h2 data-en="🏅 Achievements" data-zh="🏅 成就">🏅 Achievements</h2>
 
         <!-- Certificate -->
         <div class="certificate">
@@ -501,18 +581,28 @@
             <a href="https://www.cloudskillsboost.google/public_profiles/f44c84e1-4dab-4b7f-be95-e0242294e681/badges/17580741?locale=en" target="_blank">
                 <img src="https://cdn.qwiklabs.com/7or6NWq0XHv2qr4HT2RFr0cihLG9W7jbWQwn08yO93M%3D" alt="Responsible AI for Developers: Interpretability & Transparency">
             </a>
-
-            <!-- ... 共24个徽章 ... -->
         </div>
     </section>
 
     <!-- Contact -->
     <section>
-        <h2>📫 Contact Me</h2>
-        <p>Email: <a href="mailto:lchen1074@gmail.com">lchen1074@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/xxr1/" target="_blank">linkedin.com/in/xxr1/</a></p>
-        <p>GitHub: <a href="https://github.com/LemonnnnTea" target="_blank">github.com/LemonnnnTea</a></p>
-        <p>LeetCode China: <a href="https://leetcode.cn/u/LemonnnnTea" target="_blank">leetcode.cn/u/LemonnnnTea</a></p>
+        <h2 data-en="📫 Contact Me" data-zh="📫 联系我">📫 Contact Me</h2>
+        <p data-en="Email: <a href='mailto:lchen1074@gmail.com'>lchen1074@gmail.com</a>"
+           data-zh="邮箱：<a href='mailto:lchen1074@gmail.com'>lchen1074@gmail.com</a>">
+            Email: <a href="mailto:lchen1074@gmail.com">lchen1074@gmail.com</a>
+        </p>
+        <p data-en="LinkedIn: <a href='https://www.linkedin.com/in/xxr1/' target='_blank'>linkedin.com/in/xxr1/</a>"
+           data-zh="领英：<a href='https://www.linkedin.com/in/xxr1/' target='_blank'>linkedin.com/in/xxr1/</a>">
+            LinkedIn: <a href="https://www.linkedin.com/in/xxr1/" target="_blank">linkedin.com/in/xxr1/</a>
+        </p>
+        <p data-en="GitHub: <a href='https://github.com/LemonnnnTea' target='_blank'>github.com/LemonnnnTea</a>"
+           data-zh="GitHub：<a href='https://github.com/LemonnnnTea' target='_blank'>github.com/LemonnnnTea</a>">
+            GitHub: <a href="https://github.com/LemonnnnTea" target="_blank">github.com/LemonnnnTea</a>
+        </p>
+        <p data-en="LeetCode China: <a href='https://leetcode.cn/u/LemonnnnTea' target='_blank'>leetcode.cn/u/LemonnnnTea</a>"
+           data-zh="力扣中国：<a href='https://leetcode.cn/u/LemonnnnTea' target='_blank'>leetcode.cn/u/LemonnnnTea</a>">
+            LeetCode China: <a href="https://leetcode.cn/u/LemonnnnTea" target="_blank">leetcode.cn/u/LemonnnnTea</a>
+        </p>
     </section>
 
 </div>
@@ -521,5 +611,6 @@
     &copy; 2025 LemonTea
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
