@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LemonTea | Portfolio</title>
+    <title>Xinru Xue's Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <link href = "style.css" rel = "stylesheet">
@@ -15,26 +15,128 @@
     <button id="language-toggle">中文</button>
 </div>
 
-<!-- Header -->
-<header>
-    <h1 data-en="Xinru Xue" data-zh="薛新儒">Xinru Xue</h1>
-    <p data-en="Undergraduate Student | Internet of Things Engineering(HEBUT) & Computer Science(Massey Uni)"
-       data-zh="本科生 | 物联网工程(河北工业大学) & 计算机科学(梅西大学)">Undergraduate Student | Internet of Things Engineering(HEBUT) & Computer Science(Massey Uni)</p>
-    <p data-en="📍 Hebei University of Technology & Massey University | 🌱 IoT, Cloud, Embedded Systems, AI Deployment"
-       data-zh="📍 河北工业大学 & 梅西大学 | 🌱 物联网、云计算、嵌入式系统、AI部署">📍 Hebei University of Technology & Massey University | 🌱 IoT, Cloud, Embedded Systems, AI Deployment</p>
-    <p>
-        <span data-en="See my updated " data-zh="查看我的最新">See my updated </span>
-        <a href="#" id="cv-link" style="color: #3498db; text-decoration: none; font-weight: 600;">
-            <span data-en="CV" data-zh="简历">CV</span>
-        </a>
-        <span data-en=" here." data-zh="这里。"> here.</span>
-    </p>
+<header class="header_area">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container box_1620">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#competitions">Competitions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#memberships">Memberships</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 </header>
 
-<div class="container">
+<!-- Header -->
+<section class="home_banner_area">
+    <div class="container box_1620" style="min-height: 0px;">
+        <div class="banner_inner d-flex align-items-center" style="min-height: 0px; padding: 0px;">
+            <div class="banner_content">
+                <div class="media">
+                    <div class="d-flex">
+                        <img src="imgs/personal.png" alt="" height = "400px">
+                    </div>
+                    <div class="media-body">
+                        <div class="personal_text">
+                            <h6 style="text-transform: none;">Hi, Kia ora and 你好 👋 , I am</h6>
+                            <h3 style="font-size:x-large;" data-en="Xinru Xue" data-zh="薛新儒">Xinru Xue</h3>
+                            <h4 data-en="Undergraduate Student" data-zh="本科生">Undergraduate Student</h4>
+                            <p data-en="Internet of Things Engineering(HEBUT) & Computer Science(Massey Uni)"
+                               data-zh="物联网工程(河北工业大学) & 计算机科学(梅西大学)">Internet of Things Engineering(HEBUT) & Computer Science(Massey Uni)</p>
+                            <ul class="list basic_info">
+                                <li><a href="#"><i class="lnr lnr-home"></i> <span data-en="Hebei University of Technology & Massey University" data-zh="河北工业大学 & 梅西大学">Hebei University of Technology & Massey University</span></a></li>
+                                <li><a href="#"><i class="lnr lnr-tag"></i> <span data-en="IoT, Cloud, Embedded Systems, AI Deployment" data-zh="物联网、云计算、嵌入式系统、AI部署">IoT, Cloud, Embedded Systems, AI Deployment</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container" id = "about">
+    <!-- About Me -->
+    <section>
+        <h2 data-en="👋 About me" data-zh="👋 关于我">👋 About me</h2>
+        <div class="card">
+            <p data-en="Hi!👋 I'm Xinru Xue, an undergraduate student pursuing dual degrees in Internet of Things Engineering at <strong>Hebei University of Technology</strong> and Computer Science at <strong>Massey University</strong>. I have hands-on experience in IoT, cloud systems, embedded devices, AI model deployment, and game development."
+               data-zh="你好！👋 我是薛新儒，本科就读于<strong>河北工业大学</strong>物联网工程专业，同时在<strong>梅西大学</strong>攻读计算机科学双学位。我在物联网、云系统、嵌入式设备、AI模型部署以及游戏开发方面拥有实践经验。">
+                Hi! I'm Xinru Xue, an undergraduate student pursuing dual degrees in Internet of Things Engineering at Hebei University of Technology and Computer Science at Massey University. I have hands-on experience in IoT, cloud systems, embedded devices, AI model deployment, and game development.
+            </p>
+
+            <p data-en="I was born in an industrial town in northern China. In the memories of our parents' generation, this was once a desolate land forgotten by time—<strong>where endless reed marshes swayed in the autumn wind, and silver-white saline-alkali soil stretched like scars across the earth to the horizon</strong>.
+            Yet it was precisely on this barren ground that <strong>our parents forged their youth into shovels and poured their dreams into concrete</strong>. With calloused hands, they raised the first steel beams; with sweat-drenched backs, they carried the weight of an entire era.
+            <strong>The roar of concrete mixers in the deep night became their lullaby for the dawn; the sparks of molten steel that scorched their skin were the stars they ignited for this land</strong>. Today, as morning light bathes the new streets, as ginkgo leaves drift against school windows,
+            <strong>what we see is not just a rising city, but a monument cast with youth and fervor</strong>—every inch of soil steeped in the tears and laughter of the preceding generation, every street echoing with the resolute footsteps of that fiery age."
+               data-zh="我出生在中国北方的一座工业小镇。在父辈们的记忆里，这里曾是一片被时光遗忘的荒芜之地——<strong>目之所及，唯有秋风中的芦苇荡在天地间起伏，银白色的盐碱地如同大地的伤疤般蔓延至地平线</strong>。
+            然而，就是在这片贫瘠的土地上，<strong>我们的父辈将青春铸成铁锹，把梦想浇灌为混凝土</strong>。他们用长满老茧的双手托起第一根钢梁，用浸透汗水的脊背扛起整个时代的重量。
+            <strong>深夜里搅拌机的轰鸣，是他们献给黎明的摇篮曲；灼烤皮肤的钢花，是他们为这片土地点燃的星辰</strong>。如今，当晨曦洒在崭新的街巷，当银杏叶飘落在校园窗台，
+            <strong>我们看见的不仅是拔地而起的新城，更是一座用青春与热血浇铸的丰碑</strong>——每一寸土地都浸透着上一代人的眼泪与欢笑，每一条街道都回荡着那个火红年代的铿锵足音。">
+                I was born in a small industrial town in northern China, a place that used to be endless reed marshes and saline land. My ancestors devoted their lives, sweat, and tears to this land, building a beautiful new city.
+            </p>
+
+            <p data-en="Since middle school, I have demonstrated a strong interest in computer science. I learned multiple programming languages including <strong>C</strong>, <strong>Java</strong>, and <strong>Python</strong>, and served as president of the computer club. In my spare time, I volunteered to troubleshoot and repair computers for classmates and teachers."
+               data-zh="我自初中起就对计算机科学展现出浓厚兴趣，学习了包括<strong>C</strong>、<strong>Java</strong>和<strong>Python</strong>在内的多种编程语言，并担任计算机社团社长。课余时间，我主动为同学和老师提供计算机故障排查与维修服务。">
+                Since middle school, I have demonstrated a strong interest in computer science. I learned multiple programming languages including C, Java, and Python, and served as president of the computer club. In my spare time, I volunteered to troubleshoot and repair computers for classmates and teachers.
+            </p>
+
+            <p data-en="During middle school, I achieved <strong>outstanding academic results</strong>, earning straight A's in all final examinations. In 2020, I was admitted to <strong>Dagang Oilfield Experimental Middle School</strong> in Tianjin, scoring <strong>556.1 out of 590 (94.3%)</strong>. This institution is recognized as <strong>one of Tianjin's first municipal key high schools</strong> and <strong>one of the city's first model high schools</strong>."
+               data-zh="初中期间，我<strong>学业成绩优异</strong>，期末考试全科获得A等。2020年，我以<strong>556.1分（满分590，94.3%）</strong>的成绩考入<strong>天津市大港油田实验中学</strong>（该校是<strong>天津市首批市级重点中学</strong>和<strong>首批示范性高中</strong>）。">
+                During middle school, I achieved outstanding academic results, earning straight A's in all final examinations. In 2020, I was admitted to Dagang Oilfield Experimental Middle School in Tianjin, scoring 556.1 out of 590 (94.3%). This institution is recognized as one of Tianjin's first municipal key high schools and one of the city's first model high schools.
+            </p>
+
+            <p data-en="During high school, I continued serving as president of the computer club, organizing multiple computer science events. I also co-founded <strong>Tianjin Nansu Technology Co., Ltd.</strong> with friends, focusing on web design, software development, and cryptocurrency computing. As of 2025, the company had a registered capital of <strong>1 million RMB</strong>."
+               data-zh="高中期间，我继续担任计算机社团社长，在校内组织了多场计算机科学相关活动。同时，我与朋友共同创办了<strong>天津南苏科技有限公司</strong>，公司主营业务包括网页设计、程序开发和加密货币计算。截至2025年，公司实缴注册资金达<strong>100万元人民币</strong>。">
+                During high school, I continued serving as president of the computer club, organizing multiple computer science events. I also co-founded Tianjin Nansu Technology Co., Ltd. with friends, focusing on web design, software development, and cryptocurrency computing. As of 2025, the company had a registered capital of 1 million RMB.
+            </p>
+
+            <p data-en="I also served as an early technical co-founder at a company, responsible for network architecture design, hardware assembly and maintenance, Ethereum mining rig configuration, and 3D game development using Unreal Engine 4."
+               data-zh="我曾作为企业早期技术合伙人，负责网络架构搭建、硬件组装与维护、以太坊矿机配置，以及使用虚幻引擎4进行3D游戏开发。">
+                I also served as an early technical co-founder at a company, responsible for network architecture design, hardware assembly and maintenance, Ethereum mining rig configuration, and 3D game development using Unreal Engine 4.
+            </p>
+
+            <p data-en="In 2023, I participated in the National College Entrance Examination and was admitted to the dual-degree program between <strong>Hebei University of Technology</strong> and <strong>Massey University</strong>, scoring <strong>613 out of 750 (82%)</strong>, continuing my studies in computer science."
+               data-zh="2023年，我参加高考并以<strong>613分（满分750分，82%）</strong>的成绩考入<strong>河北工业大学</strong>与<strong>梅西大学</strong>双学位项目，继续深造计算机科学。">
+                In 2023, I participated in the National College Entrance Examination and was admitted to the dual-degree program between Hebei University of Technology and Massey University, scoring 613 out of 750 (82%), continuing my studies in computer science.
+            </p>
+
+            <p data-en="📍 Currently exploring <strong>IoT, cloud solutions, embedded systems, and AI deployment</strong>, with the goal of <strong>integrating software and hardware to develop innovative solutions</strong>."
+               data-zh="📍 目前专注于<strong>物联网、云计算、嵌入式系统和AI部署领域</strong>，致力于<strong>软硬件结合</strong>，<strong>创造创新解决方案</strong>。">
+                📍 Currently exploring IoT, cloud solutions, embedded systems, and AI deployment, with the goal of integrating software and hardware to develop innovative solutions.
+            </p>
+
+            <p>
+                <span data-en="View my updated " data-zh="查看我的最新">View my updated </span>
+                <a href="#" id="cv-link" style="color: #3498db; text-decoration: none; font-weight: 600;">
+                    <span data-en="CV" data-zh="简历">CV</span>
+                </a>
+                <span data-en=" here." data-zh="这里。"> here.</span>
+            </p>
+        </div>
+    </section>
+
 
     <!-- Education -->
-    <section>
+    <section id = "education">
         <h2 data-en="🎓 Education" data-zh="🎓 教育背景">🎓 Education</h2>
         <div class="education-card d-flex flex-column gap-4">
 
@@ -45,7 +147,7 @@
                 <div>
                     <div class="education-item">
                         <h5 class="edu-title" data-en="Hebei University of Technology (HEBUT)" data-zh="河北工业大学 (HEBUT)">Hebei University of Technology (HEBUT)</h5>
-                        <p class="edu-degree" data-en="B.Eng. in Internet of Things Engineering" data-zh="物联网工程学士">B.Eng. in Internet of Things Engineering <span class="edu-year">(2023–Present)</span></p>
+                        <p class="edu-degree" data-en="B.Eng. in Internet of Things Engineering" data-zh="工学学士">B.Eng. in Internet of Things Engineering <span class="edu-year">(2023–Present)</span></p>
                         <p class="edu-highlight" data-en="Ranked <strong>A++ (1st in China)</strong> in the 2025 China University Rankings for Internet of Things Engineering (Research-oriented) by the Alumni Association."
                            data-zh="在2025年中国大学校友会排名中，物联网工程（研究型）专业被评为<strong>A++（中国第一）</strong>。">
                             Ranked <strong>A++ (1st in China)</strong> in the 2025 China University Rankings for
@@ -90,7 +192,7 @@
     </section>
 
     <!-- Experience -->
-    <section>
+    <section id = experience>
         <h2 data-en="💼 Experience" data-zh="💼 经历">💼 Experience</h2>
         <div class="experience-card d-flex flex-column gap-4">
 
@@ -116,13 +218,29 @@
                     <h5><i class="fas fa-briefcase text-success me-2"></i> <span data-en="Internships" data-zh="实习经历">Internships</span></h5>
                     <div class="timeline">
 
-                        <!-- Bohai Drilling Internship -->
+                        <!-- Nansu Internship -->
                         <div class="timeline-item left">
+                            <div class="content">
+                                <h6 data-en="Tianjin Nansu Technology Co., Ltd." data-zh="天津南苏科技有限公司">Tianjin Nansu Technology Co., Ltd.</h6>
+                                <p><em>Feb 2021 – Now</em></p>
+                                <ul>
+                                    <li data-en="Role: Technical Co-founder (Part-time)" data-zh="职位：技术合伙人（兼职）">Role: Technical Co-founder</li>
+                                    <li data-en="Designed and implemented enterprise network infrastructure, enabling simultaneous multi-user operations and warehouse management" data-zh="设计并搭建企业内网络系统，支持多人同时办公和仓库管理，提高整体工作效率">Designed and implemented enterprise network infrastructure</li>
+                                    <li data-en="Assembled and maintained in-house machinery, ensuring smooth production and operational processes" data-zh="组装并维护企业内部各类机器设备，保障生产和运营顺利进行">Assembled and maintained in-house machinery</li>
+                                    <li data-en="Procured, assembled, and maintained Ethereum mining equipment, ensuring optimal operational performance" data-zh="负责以太坊计算设备的采购、组装、调试及日常维护，确保设备高效运行">Procured, assembled, and maintained Ethereum mining equipment</li>
+                                    <li data-en="Contributed to 3D game modeling and developed game demos using Unreal Engine 4, showcasing core features" data-zh="参与3D游戏建模工作，并基于UE4制作游戏Demo，实现核心功能展示">Contributed to 3D game modeling and developed game demos using Unreal Engine 4</li>
+                                    <li data-en="As an early co-founder, participated in initial technical planning and project execution, driving key initiatives forward." data-zh="作为企业早期合伙人之一，参与企业初期技术规划与实施，推动关键项目落地">As an early co-founder</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Bohai Drilling Internship -->
+                        <div class="timeline-item right">
                             <div class="content">
                                 <h6 data-en="Bohai Drilling Engineering Co., Ltd." data-zh="渤海钻探工程有限公司">Bohai Drilling Engineering Co., Ltd.</h6>
                                 <p><em>July 2024 – August 2024</em></p>
                                 <ul>
-                                    <li data-en="Role: Operations & Maintenance" data-zh="职位：运维工程师">Role: Operations & Maintenance</li>
+                                    <li data-en="Role: Operations & Maintenance (Intern)" data-zh="职位：运维工程师（实习）">Role: Operations & Maintenance</li>
                                     <li data-en="Assisted in daily system operation and troubleshooting" data-zh="协助日常系统运行和故障排除">Assisted in daily system operation and troubleshooting</li>
                                     <li data-en="Gained practical experience with industrial data monitoring and fault handling" data-zh="获得工业数据监控和故障处理的实际经验">Gained practical experience with industrial data monitoring and fault handling</li>
                                 </ul>
@@ -130,12 +248,12 @@
                         </div>
 
                         <!-- CNPC Dagang Internship -->
-                        <div class="timeline-item right">
+                        <div class="timeline-item left">
                             <div class="content">
-                                <h6 data-en="CNPC Dagang Oilfield Digital Technology Co." data-zh="中国石油大港油田数字技术公司">CNPC Dagang Oilfield Digital Technology Co.</h6>
+                                <h6 data-en="CNPC Dagang Oilfield Digital Technology Co." data-zh="中国石油大港油田数智技术公司">CNPC Dagang Oilfield Digital Technology Co.</h6>
                                 <p><em>July 2025 – August 2025</em></p>
                                 <ul>
-                                    <li data-en="Role: Operations & Maintenance" data-zh="职位：运维工程师">Role: Operations & Maintenance</li>
+                                    <li data-en="Role: Operations & Maintenance (Intern)" data-zh="职位：运维工程师（实习）">Role: Operations & Maintenance</li>
                                     <li data-en="Participated in maintaining oilfield digital systems and platforms" data-zh="参与维护油田数字系统和平台">Participated in maintaining oilfield digital systems and platforms</li>
                                     <li data-en="Learned skills in large-scale system monitoring and IT support" data-zh="学习大规模系统监控和IT支持技能">Learned skills in large-scale system monitoring and IT support</li>
                                     <li data-en="Collaborated with senior engineers on system optimization tasks" data-zh="与高级工程师合作完成系统优化任务">Collaborated with senior engineers on system optimization tasks</li>
@@ -150,10 +268,9 @@
     </section>
 
     <!-- Competitions & Activities -->
-    <section>
+    <section id = "competitions">
         <h2 data-en="🏆 Competitions & Activities" data-zh="🏆 竞赛与活动">🏆 Competitions & Activities</h2>
         <div class="competition-card d-flex flex-column gap-4">
-
             <!-- Activities Card -->
             <div class="card p-4 d-flex align-items-center">
                 <div class="me-3">
@@ -249,7 +366,7 @@
     </section>
 
     <!-- Certificates & Qualifications -->
-    <section>
+    <section id = "certificates">
         <h2 data-en="📜 Certificates & Qualifications" data-zh="📜 证书与资格">📜 Certificates & Qualifications</h2>
         <div class="experience-card d-flex flex-column gap-4">
 
@@ -310,7 +427,7 @@
     </section>
 
     <!-- Professional Memberships -->
-    <section>
+    <section id = "memberships">
         <h2 data-en="👥 Professional Memberships" data-zh="👥 专业会员资格">👥 Professional Memberships</h2>
         <div class="experience-card d-flex flex-column gap-4">
 
@@ -371,7 +488,7 @@
     </section>
 
     <!-- Projects -->
-    <section>
+    <section id = "projects">
         <h2 data-en="🚀 Projects & Learning" data-zh="🚀 项目与学习">🚀 Projects & Learning</h2>
         <div class="project-card d-flex flex-column gap-4">
 
@@ -496,7 +613,7 @@
     </section>
 
     <!-- Achievements -->
-    <section>
+    <section id = "achievements">
         <h2 data-en="🏅 Achievements" data-zh="🏅 成就">🏅 Achievements</h2>
 
         <!-- Certificate -->
@@ -585,7 +702,7 @@
     </section>
 
     <!-- Contact -->
-    <section>
+    <section id = "contact">
         <h2 data-en="📫 Contact Me" data-zh="📫 联系我">📫 Contact Me</h2>
         <p data-en="Email: <a href='mailto:lchen1074@gmail.com'>lchen1074@gmail.com</a>"
            data-zh="邮箱：<a href='mailto:lchen1074@gmail.com'>lchen1074@gmail.com</a>">
