@@ -22,7 +22,7 @@
 
 ## Biography
 
-Hi!👋 I'm Xinru Xue, an undergraduate student pursuing dual degrees in Internet of Things Engineering at **Hebei University of Technology** and Computer Science at **Massey University**. I have hands-on experience in IoT, cloud systems, embedded devices, AI model deployment, and game development.
+Hi!👋 I'm LemonTea, an undergraduate student pursuing dual degrees in Internet of Things Engineering at **Hebei University of Technology** and Computer Science at **Massey University**. I have hands-on experience in IoT, cloud systems, embedded devices, AI model deployment, and game development.
 
 I was born in an industrial town in northern China. In the memories of our parents' generation, this was once a desolate land forgotten by time—**where endless reed marshes swayed in the autumn wind, and silver-white saline-alkali soil stretched like scars across the earth to the horizon**.
 Yet it was precisely on this barren ground that **our parents forged their youth into shovels and poured their dreams into concrete**. With calloused hands, they raised the first steel beams; with sweat-drenched backs, they carried the weight of an entire era.
