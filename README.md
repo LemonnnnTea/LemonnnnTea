@@ -1,4 +1,4 @@
-# Xinru Xue
+# LemonTea
 ### Postgraduate Student in Computer Science
 *(Note: Bio section describes as Undergraduate)*
 
