@@ -18,34 +18,6 @@
   <a href="https://github.com/LemonnnnTea"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
----
-
-## Biography
-
-Hi!👋 I'm LemonTea, an undergraduate student pursuing dual degrees in Internet of Things Engineering at **Hebei University of Technology** and Computer Science at **Massey University**. I have hands-on experience in IoT, cloud systems, embedded devices, AI model deployment, and game development.
-
-I was born in an industrial town in northern China. In the memories of our parents' generation, this was once a desolate land forgotten by time—**where endless reed marshes swayed in the autumn wind, and silver-white saline-alkali soil stretched like scars across the earth to the horizon**.
-Yet it was precisely on this barren ground that **our parents forged their youth into shovels and poured their dreams into concrete**. With calloused hands, they raised the first steel beams; with sweat-drenched backs, they carried the weight of an entire era.
-**The roar of concrete mixers in the deep night became their lullaby for the dawn; the sparks of molten steel that scorched their skin were the stars they ignited for this land**. Today, as morning light bathes the new streets, as ginkgo leaves drift against school windows,
-**what we see is not just a rising city, but a monument cast with youth and fervor**—every inch of soil steeped in the tears and laughter of the preceding generation, every street echoing with the resolute footsteps of that fiery age.
-
-Since middle school, I have demonstrated a strong interest in computer science. I learned multiple programming languages including **C**, **Java**, and **Python**, and served as president of the computer club. In my spare time, I volunteered to troubleshoot and repair computers for classmates and teachers.
-
-During middle school, I achieved **outstanding academic results**, earning straight A's in all final examinations. In 2020, I was admitted to **Dagang Oilfield Experimental Middle School** in Tianjin, scoring **556.1 out of 590 (94.3%)**. This institution is recognized as **one of Tianjin's first municipal key high schools** and **one of the city's first model high schools**.
-
-During high school, I continued serving as president of the computer club, organizing multiple computer science events. I also co-founded **Tianjin Nansu Technology Co., Ltd.** with friends, focusing on web design, software development, and cryptocurrency computing. As of 2025, the company had a registered capital of **1 million RMB**.
-
-I also served as an early technical co-founder at a company, responsible for network architecture design, hardware assembly and maintenance, Ethereum mining rig configuration, and 3D game development using Unreal Engine 4.
-
-In 2023, I participated in the National College Entrance Examination and was admitted to the dual-degree program between **Hebei University of Technology** and **Massey University**, scoring **613 out of 750 (82%)**, continuing my studies in computer science. During my undergraduate studies, I ranked in the **top 15%** of my cohort and received the Third-Class Academic Scholarship at the Hebei University of Technology (Finnish Campus) for the 2023–2024 academic year. I actively participated in scientific research and innovation competitions, such as the **American Mathematical Modeling Contest (MCM/ICM)**, the **National College Student Innovation and Entrepreneurship Training Program**, and the **Challenge Cup Special Competition**. I was also a finalist in the **Provincial Electrical and Electronic Engineering Innovation Competition** and successfully entered the **National College English Competition** finals.
-
-In addition to academics, I actively engaged in **student leadership** and **cross-cultural activities**. I served in multiple roles within the **student union** and class committees, organizing events such as 'May of Blossoms', 'Mid-Autumn Lecture', and 'International Chinese Language Day', which enhanced **team collaboration** and **event coordination skills**. These experiences also strengthened my ability to communicate in **multicultural environments** and lead collaborative projects. Furthermore, I developed strong technical skills in **Java**, **Python**, **embedded systems**, and **cloud computing**, and gained hands-on experience in **AI model deployment** and **IoT engineering**. I am passionate about integrating technology with real-world scenarios and continuously exploring innovative solutions.
-
-During my undergraduate studies, I actively applied my knowledge in real-world environments. I served as a **Technical Co-founder** at Tianjin Nansu Technology, where I built **enterprise network systems**, maintained **hardware infrastructure**, and participated in **3D game development and system optimization**. I also worked as an **Operations & Maintenance Intern** at Bohai Drilling and CNPC Dagang Oilfield, gaining hands-on experience in **large-scale digital platforms and IT support**. In addition, I served as a **CS Assistant Lecturer**, delivering **C programming lectures and lab sessions**, grading assignments, and supporting student learning—further strengthening both my **technical depth and communication skills**.
-
-📍 Currently exploring **IoT, cloud solutions, embedded systems, and AI deployment**, with the goal of **integrating software and hardware to develop innovative solutions**.
-
-View my updated <a href="file/resume/XinruXue_Resume.pdf" download>CV</a> here.
 
 ---
 
