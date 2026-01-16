@@ -1,6 +1,5 @@
 # LemonTea
-### Postgraduate Student in Computer Science
-*(Note: Bio section describes as Undergraduate)*
+### Undergraduate Student in Computer Science
 
 * Bachelor's Degree (IoT Engineering) @ Hebei University of Technology
 * Bachelor's Degree (Computer Science) @ Massey University
