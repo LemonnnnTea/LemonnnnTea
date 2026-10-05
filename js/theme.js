@@ -27,7 +27,9 @@
     /*  Parallax Effect js
     /*----------------------------------------------------*/
 	function parallaxEffect() {
-    	$('.bg-parallax').parallax();
+        if ($('.bg-parallax').length && $.fn.parallax) {
+            $('.bg-parallax').parallax();
+        }
 	}
 	parallaxEffect();
 	

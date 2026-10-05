@@ -1,0 +1,145 @@
+/* Project cards use local icons when no project screenshot is available. */
+.projects_page .blog_banner,
+.projects_page .blog_banner .banner_inner {
+  min-height: 420px;
+}
+
+.projects_page .blog_banner .banner_inner {
+  padding: 140px 0 80px;
+}
+
+.projects_page .blog_banner .banner_inner .overlay {
+  background-size: cover;
+}
+
+.projects_page .blog_banner .banner_inner .blog_b_text h2 {
+  font-size: 44px;
+  line-height: 1.2;
+  text-transform: none;
+}
+
+.projects_page .blog_area {
+  padding-bottom: 80px;
+}
+
+.projects_page .categories_post img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.projects_page .categories_details {
+  padding: 12px;
+}
+
+.projects_page .blog_info .post_tag span {
+  font: 300 14px/21px "Roboto", sans-serif;
+  color: #222222;
+}
+
+.projects_page .blog_info .post_tag .active {
+  color: #766dff;
+}
+
+.projects_page .blog_meta li span {
+  font-size: 14px;
+  color: #777777;
+}
+
+.projects_page .blog_meta li i {
+  margin-left: 12px;
+}
+
+.projects_page .blog_item {
+  scroll-margin-top: 100px;
+}
+
+.project_cover {
+  min-height: 200px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  background: linear-gradient(135deg, #eceaff, #e9f8ff);
+  color: #5146b7;
+  text-align: center;
+}
+
+.project_cover i {
+  font-size: 48px;
+}
+
+.project_cover span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.cover_library,
+.cover_iot {
+  background: linear-gradient(135deg, #e5f4f2, #eef7ff);
+  color: #286867;
+}
+
+.cover_compiler,
+.cover_simulation {
+  background: linear-gradient(135deg, #e9edf8, #eeebfa);
+  color: #4b5882;
+}
+
+.cover_games {
+  background: linear-gradient(135deg, #fff0e5, #fff5db);
+  color: #98652b;
+}
+
+.project_thumb {
+  flex: 0 0 60px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff0e5;
+  color: #98652b;
+  font-size: 26px;
+}
+
+.projects_page .post_item img {
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.projects_page a:focus-visible {
+  outline: 2px solid #766dff;
+  outline-offset: 4px;
+}
+
+@media (max-width: 767px) {
+  .projects_page .blog_banner,
+  .projects_page .blog_banner .banner_inner {
+    min-height: 380px;
+  }
+
+  .projects_page .blog_banner .banner_inner {
+    padding: 120px 0 56px;
+  }
+
+  .projects_page .blog_banner .banner_inner .blog_b_text h2 {
+    font-size: 32px;
+  }
+
+  .projects_page .blog_categorie_area {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .projects_page .blog_info {
+    padding-top: 0;
+  }
+
+  .projects_page .blog_info .post_tag {
+    padding-bottom: 8px;
+  }
+}

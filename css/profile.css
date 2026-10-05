@@ -1,0 +1,199 @@
+/* Keep the portrait and biography proportional to the text at each viewport. */
+.home_intro {
+  min-height: 0;
+  margin-bottom: 0;
+  padding: 150px 0 60px;
+  background: linear-gradient(90deg, #766dff, #88f3ff);
+}
+
+.home_intro .box_1620 {
+  bottom: 0;
+  min-height: 0;
+  padding: 48px 56px;
+}
+
+.home_intro .banner_inner {
+  min-height: 0;
+}
+
+.home_intro .banner_inner .banner_content {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home_intro .banner_content .media {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.home_intro .banner_inner .banner_content .media .home_portrait {
+  flex: 0 0 340px;
+  width: 340px;
+  max-width: 40%;
+  padding-right: 0;
+}
+
+.home_intro .banner_inner .banner_content .media .home_portrait img,
+.profile_portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 340px;
+  border-radius: 16px;
+}
+
+.home_intro .banner_inner .banner_content .media .media-body {
+  min-width: 0;
+  margin-top: 0;
+}
+
+.home_intro .personal_text h6 {
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+.home_intro .personal_text h4 {
+  text-transform: none;
+  line-height: 1.6;
+}
+
+.home_intro .personal_text p {
+  margin-bottom: 24px;
+}
+
+.personal_text .basic_info li a,
+.personal_text .basic_info li .info_text {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  padding-left: 36px;
+  font-size: 16px;
+  color: #777777;
+  overflow-wrap: anywhere;
+}
+
+.personal_text .basic_info li .info_text i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #766dff;
+}
+
+.personal_text .personal_social {
+  margin-top: 24px;
+}
+
+.personal_text .personal_social li a {
+  color: #57518c;
+}
+
+.personal_text a:focus-visible {
+  outline: 2px solid #766dff;
+  outline-offset: 4px;
+}
+
+.home_intro + .welcome_area {
+  padding-top: 80px;
+}
+
+.profile_portrait {
+  margin: 0 auto;
+}
+
+.profile_inner .personal_text {
+  padding-left: 32px;
+}
+
+.bio_content {
+  line-height: 1.8;
+}
+
+.bio_content h4 {
+  margin-bottom: 24px;
+}
+
+.bio_content p {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1199px) {
+  .home_intro .box_1620 {
+    padding: 40px;
+  }
+
+  .home_intro .banner_content .media {
+    gap: 40px;
+  }
+
+  .home_intro .banner_inner .banner_content .media .home_portrait {
+    flex-basis: 280px;
+    width: 280px;
+  }
+}
+
+@media (max-width: 991px) {
+  .home_intro {
+    padding-top: 110px;
+  }
+
+  .home_intro .box_1620 {
+    padding: 32px;
+  }
+
+  .home_intro .banner_content .media {
+    gap: 28px;
+  }
+
+  .home_intro .personal_text h3 {
+    font-size: 38px;
+  }
+
+  .profile_inner .personal_text {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .home_intro {
+    padding: 104px 15px 36px;
+  }
+
+  .home_intro .box_1620 {
+    padding: 28px 24px;
+    border-radius: 12px;
+  }
+
+  .home_intro .banner_content .media {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home_intro .banner_inner .banner_content .media .home_portrait {
+    flex: 0 0 auto;
+    width: 260px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .home_intro .banner_inner .banner_content h3 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .home_intro .banner_inner .banner_content p br {
+    display: block;
+  }
+
+  .home_intro + .welcome_area {
+    padding-top: 56px;
+  }
+
+  .profile_portrait {
+    max-width: 280px;
+  }
+}

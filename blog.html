@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>MeetMe Personal</title>
+        <title>Projects &amp; Notes | Xinru Xue</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -18,8 +18,9 @@
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/blog.css">
     </head>
-    <body>
+    <body class="projects_page">
         
         <!--================Header Menu Area =================-->
         <header class="header_area">
@@ -36,7 +37,7 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul class="nav navbar-nav menu_nav ml-auto">
-                                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
                                 <li class="nav-item submenu dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Background</a>
@@ -53,7 +54,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="blog.html" aria-current="page">Blog</a></li>
 
                                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                             </ul>
@@ -65,15 +66,14 @@
         <!--================Header Menu Area =================-->
         
         <!--================Home Banner Area =================-->
-        <!--================Home Banner Area =================-->
         <section class="home_banner_area blog_banner">
             <div class="banner_inner d-flex align-items-center">
                 <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
                 <div class="container">
                     <div class="blog_b_text text-center">
-                        <h2>My CS Projects & Notes</h2>
+                        <h2>My CS Projects &amp; Notes</h2>
                         <p>A curated collection of my programming projects, notes, and fun experiments.</p>
-                        <a class="white_bg_btn" href="https://github.com/LemonnnnTea">View All Projects On Github</a>
+                        <a class="white_bg_btn" href="https://github.com/LemonnnnTea?tab=repositories">View All Projects on GitHub</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                             <img src="img/blog/cat-post/cat-post-1.jpg" alt="CS Notes">
                             <div class="categories_details">
                                 <div class="categories_text">
-                                    <a href="https://github.com/LemonnnnTea/My-CS-Notes"><h5>CS Notes</h5></a>
+                                    <a href="https://github.com/LemonnnnTea/CS-Notes"><h5>CS Notes</h5></a>
                                     <div class="border_line"></div>
                                     <p>My detailed study notes for CS courses.</p>
                                 </div>
@@ -132,160 +132,155 @@
                     <div class="col-lg-8">
                         <div class="blog_left_sidebar">
                             <!-- Project / Note Item -->
-                            <article class="row blog_item">
+                            <article class="row blog_item" id="data-structures">
                                 <div class="col-md-3">
                                     <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">CS Notes,</a>
-                                            <a class="active" href="#">Python,</a>
-                                            <a href="#">Data Structures</a>
+                                            <span>CS Notes,</span>
+                                            <span class="active">Algorithms,</span>
+                                            <span>Data Structures</span>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">2025<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><span>2025<i class="lnr lnr-calendar-full" aria-hidden="true"></i></span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/blog/cat-post/cat-post-1.jpg" alt="CS Notes Screenshot">
+                                        <div class="project_cover cover_notes" aria-hidden="true"><i class="fa fa-book"></i><span>Data Structures &amp; Algorithms</span></div>
                                         <div class="blog_details">
-                                            <a href="#"><h2>Data Structures Notes</h2></a>
+                                            <a href="https://github.com/LemonnnnTea/CS-Notes"><h2>Data Structures Notes</h2></a>
                                             <p>Comprehensive notes on arrays, linked lists, trees, and graphs.</p>
-                                            <a href="img/projects/cs-note-1.pdf" class="white_bg_btn" target="_blank">Download PDF</a>
+                                            <a href="https://github.com/LemonnnnTea/CS-Notes" class="white_bg_btn">Read Notes on GitHub</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            <article class="row blog_item">
+                            <article class="row blog_item" id="library-system">
                                 <div class="col-md-3">
                                     <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Projects,</a>
-                                            <a class="active" href="#">Java,</a>
-                                            <a href="#">Library System</a>
+                                            <span>Projects,</span>
+                                            <span class="active">Java,</span>
+                                            <span>Library System</span>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">2025<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><span>2025<i class="lnr lnr-calendar-full" aria-hidden="true"></i></span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/projects/library-system.jpg" alt="Library System Screenshot">
+                                        <div class="project_cover cover_library" aria-hidden="true"><i class="fa fa-database"></i><span>Library Management</span></div>
                                         <div class="blog_details">
-                                            <a href="#"><h2>University Library Management System</h2></a>
+                                            <h2>University Library Management System</h2>
                                             <p>A Java project implementing search, borrow, return, and rating functionalities.</p>
-                                            <a href="#" class="white_bg_btn">View on GitHub</a>
-                                            <a href="img/projects/library-system.pdf" class="white_bg_btn" target="_blank">Download Report</a>
+                                            <a href="mailto:lchen1074@gmail.com?subject=University%20Library%20Management%20System" class="white_bg_btn">Ask About This Project</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
                             <!-- Machine Code Compiler in C++ -->
-                            <article class="row blog_item">
+                            <article class="row blog_item" id="machine-code-compiler">
                                 <div class="col-md-3">
                                     <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">System Projects,</a>
-                                            <a class="active" href="#">C++</a>
-                                            <a href="#">Compiler</a>
+                                            <span>System Projects,</span>
+                                            <span class="active">C++,</span>
+                                            <span>Compiler</span>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">2025<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><span>2025<i class="lnr lnr-calendar-full" aria-hidden="true"></i></span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/projects/compiler.jpg" alt="C++ Machine Code Compiler">
+                                        <div class="project_cover cover_compiler" aria-hidden="true"><i class="fa fa-code"></i><span>Machine Code Compiler</span></div>
                                         <div class="blog_details">
-                                            <a href="#"><h2>Machine Code Compiler (C++)</h2></a>
+                                            <h2>Machine Code Compiler (C++)</h2>
                                             <p>A lightweight compiler that translates simplified assembly instructions into machine code, featuring lexical and syntax analysis.</p>
-                                            <a href="#" class="white_bg_btn">Run Demo</a>
-                                            <a href="#" class="white_bg_btn">View Source</a>
+                                            <a href="mailto:lchen1074@gmail.com?subject=Machine%20Code%20Compiler" class="white_bg_btn">Ask About This Project</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
                             <!-- ESP32 Micropython Interpreter in Python -->
-                            <article class="row blog_item">
+                            <article class="row blog_item" id="micropython-interpreter">
                                 <div class="col-md-3">
                                     <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">IoT Projects,</a>
-                                            <a class="active" href="#">Python</a>
-                                            <a href="#">ESP32</a>
+                                            <span>IoT Projects,</span>
+                                            <span class="active">Python,</span>
+                                            <span>ESP32</span>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">2025<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><span>2025<i class="lnr lnr-calendar-full" aria-hidden="true"></i></span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/projects/micropython.jpg" alt="ESP32 Micropython Interpreter">
+                                        <div class="project_cover cover_iot" aria-hidden="true"><i class="fa fa-terminal"></i><span>MicroPython Web IDE</span></div>
                                         <div class="blog_details">
-                                            <a href="#"><h2>ESP32 Micropython Interpreter (Python)</h2></a>
-                                            <p>An interpreter running on ESP32, allowing dynamic execution of Python scripts with GPIO and sensor interaction support.</p>
-                                            <a href="#" class="white_bg_btn">Run Demo</a>
-                                            <a href="#" class="white_bg_btn">View Source</a>
+                                            <a href="https://github.com/LemonnnnTea/ESP32-Micropython-Interpreter"><h2>ESP32 MicroPython Web IDE</h2></a>
+                                            <p>A browser-based IDE for ESP32 and ESP8266 boards, with a live Python REPL, file management, code editing, and script execution over WebSocket.</p>
+                                            <a href="https://github.com/LemonnnnTea/ESP32-Micropython-Interpreter" class="white_bg_btn">View Source &amp; Setup</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
                             <!-- ESP32 Game Collections in Python -->
-                            <article class="row blog_item">
+                            <article class="row blog_item" id="esp32-games">
                                 <div class="col-md-3">
                                     <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Embedded Projects,</a>
-                                            <a class="active" href="#">Python</a>
-                                            <a href="#">Game Dev</a>
+                                            <span>Embedded Projects,</span>
+                                            <span class="active">Python,</span>
+                                            <span>Game Development</span>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">2025<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><span>2025<i class="lnr lnr-calendar-full" aria-hidden="true"></i></span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/projects/esp32-games.jpg" alt="ESP32 Game Collection">
+                                        <div class="project_cover cover_games" aria-hidden="true"><i class="fa fa-gamepad"></i><span>ESP32 Game Collection</span></div>
                                         <div class="blog_details">
-                                            <a href="#"><h2>ESP32 Game Collections (Python)</h2></a>
-                                            <p>A set of micro games running on ESP32, including Snake, Pong, and Pixel Shooter, built for entertainment and embedded development practice.</p>
-                                            <a href="#" class="white_bg_btn">Run Demo</a>
-                                            <a href="#" class="white_bg_btn">View Source</a>
+                                            <a href="https://github.com/LemonnnnTea/ESP32-Game-Collections"><h2>ESP32 Game Collection (MicroPython)</h2></a>
+                                            <p>A collection of browser-playable games with logic running on an ESP32, including Blackjack, Slots, Guess Number, Horse Racing, and Gomoku.</p>
+                                            <a href="https://github.com/LemonnnnTea/ESP32-Game-Collections" class="white_bg_btn">View Source &amp; Setup</a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
                             <!-- Tactical Command System in Python -->
-                            <article class="row blog_item">
+                            <article class="row blog_item" id="tactical-system">
                                 <div class="col-md-3">
                                     <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Simulation,</a>
-                                            <a class="active" href="#">Python</a>
-                                            <a href="#">AI & Control</a>
+                                            <span>Simulation,</span>
+                                            <span class="active">Python,</span>
+                                            <span>AI &amp; Control</span>
                                         </div>
                                         <ul class="blog_meta list">
-                                            <li><a href="#">2025<i class="lnr lnr-calendar-full"></i></a></li>
+                                            <li><span>2025<i class="lnr lnr-calendar-full" aria-hidden="true"></i></span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="img/projects/tactical-system.jpg" alt="Tactical Command System">
+                                        <div class="project_cover cover_simulation" aria-hidden="true"><i class="fa fa-map-o"></i><span>Tactical Simulation</span></div>
                                         <div class="blog_details">
-                                            <a href="#"><h2>Tactical Command System (Python)</h2></a>
+                                            <h2>Tactical Command System (Python)</h2>
                                             <p>A single-soldier tactical simulation system with map visualization, target tracking, and real-time strategy decision modules.</p>
-                                            <a href="#" class="white_bg_btn">Run Demo</a>
-                                            <a href="#" class="white_bg_btn">View Source</a>
+                                            <a href="mailto:lchen1074@gmail.com?subject=Tactical%20Command%20System" class="white_bg_btn">Ask About This Project</a>
                                         </div>
                                     </div>
                                 </div>
@@ -298,26 +293,26 @@
                         <div class="blog_right_sidebar">
                             <!-- Sidebar widgets -->
                             <aside class="single_sidebar_widget popular_post_widget">
-                                <h3 class="widget_title">Popular Projects</h3>
+                                <h3 class="widget_title">Featured Projects</h3>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-projects/ds.jpg" alt="post" height="60px" width="60px">
+                                    <img src="img/blog/popular-projects/ds.jpg" alt="" height="60" width="60" loading="lazy">
                                     <div class="media-body">
-                                        <a href="#"><h3>Data Structures Notes</h3></a>
-                                        <p>02 Hours ago</p>
+                                        <a href="#data-structures"><h3>Data Structures Notes</h3></a>
+                                        <p>Study notes</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-projects/lib.jpg" alt="post" height="60px" width="60px">
+                                    <img src="img/blog/popular-projects/lib.jpg" alt="" height="60" width="60" loading="lazy">
                                     <div class="media-body">
-                                        <a href="#"><h3>Library Management System</h3></a>
-                                        <p>1 Day ago</p>
+                                        <a href="#library-system"><h3>Library Management System</h3></a>
+                                        <p>Java project</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-projects/todo.jpg" alt="post" height="60px" width="60px">
+                                    <span class="project_thumb" aria-hidden="true"><i class="fa fa-gamepad"></i></span>
                                     <div class="media-body">
-                                        <a href="#"><h3>Python Todo App</h3></a>
-                                        <p>3 Days ago</p>
+                                        <a href="#esp32-games"><h3>ESP32 Game Collection</h3></a>
+                                        <p>MicroPython project</p>
                                     </div>
                                 </div>
                             </aside>
@@ -347,9 +342,9 @@
                             <p>Check out my recent works in AI, IoT, and full-stack development.</p>
                             <div id="mc_embed_signup">
                                 <ul class = "list">
-                                    <li><a href="#">ESP32 Micropython Interpreter</a></li>
-                                    <li><a href="#">ESP32 Game Collections</a></li>
-                                    <li><a href="#">Check full-list of my project</a></li>
+                                    <li><a href="#micropython-interpreter">ESP32 MicroPython Web IDE</a></li>
+                                    <li><a href="#esp32-games">ESP32 Game Collection</a></li>
+                                    <li><a href="https://github.com/LemonnnnTea?tab=repositories">View All Projects</a></li>
                                 </ul>
                             </div>
                         </aside>
@@ -361,10 +356,9 @@
                             </div>
                             <p>Let us be social</p>
                             <ul class="list">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://x.com/ChenLia25855005" aria-label="X (Twitter)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/xxr1/" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="https://github.com/LemonnnnTea" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                             </ul>
                         </aside>
                     </div>

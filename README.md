@@ -143,7 +143,7 @@
     * Negotiated sponsorships, managed budgets, and coordinated logistics for competitive gaming events.
     * Improved leadership, event organization, and public communication skills.
 
-* **Student Union Member — Langfang Campus** (2023 – 2024)
+* **Student Union Member** (2023 – 2024)
     * *Hebei University of Technology*
     * Planned and coordinated campus-wide cultural and academic activities, including orientation events and student forums.
     * Collaborated with different departments to improve student engagement and feedback mechanisms.
